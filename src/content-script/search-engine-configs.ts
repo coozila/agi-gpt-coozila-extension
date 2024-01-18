@@ -6,7 +6,7 @@ export interface SearchEngine {
 }
 
 export const config: Record<string, SearchEngine> = {
-  qwant: {
+  coozila: {
     inputQuery: ["[name='q']"],
     sidebarContainerQuery: ['.is-sidebar'],
     appendContainerQuery: [],

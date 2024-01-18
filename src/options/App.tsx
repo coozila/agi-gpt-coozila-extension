@@ -58,18 +58,18 @@ function OptionsPage(props: { theme: Theme; onThemeChange: (theme: Theme) => voi
       <nav className="flex flex-row justify-between items-center mt-5 px-2">
         <div className="flex flex-row items-center gap-2">
           <img src={logo} alt={'logo'} className="w-10 h-10 rounded-lg" />
-          <span className="font-semibold">ChatGPT for Qwant (v{getExtensionVersion()})</span>
+          <span className="font-semibold">ChatGPT for Coozila! (v{getExtensionVersion()})</span>
         </div>
         <div className="flex flex-row gap-3">
           <a
-            href="https://github.com/M-kasinski/chat-gpt-qwant-extension/issues"
+            href="https://github.com/M-kasinski/chat-gpt-coozila-extension/issues"
             target="_blank"
             rel="noreferrer"
           >
             Feedback
           </a>
           <a
-            href="https://github.com/M-kasinski/chat-gpt-qwant-extension"
+            href="https://github.com/M-kasinski/chat-gpt-coozila-extension"
             target="_blank"
             rel="noreferrer"
           >
