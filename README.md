@@ -41,4 +41,4 @@ Disable "Prevent sites from fingerprinting me based on my language preferences" 
 
 ## Credit
 
-This project is inspired by [M-kasinski/chat-gpt-coozila-extension](https://github.com/M-kasinski/chat-gpt-coozila-extension)
+This project is inspired by [M-kasinski/chat-gpt-qwant-extension](https://github.com/M-kasinski/chat-gpt-qwant-extension)
