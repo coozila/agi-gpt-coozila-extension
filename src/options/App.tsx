@@ -62,14 +62,14 @@ function OptionsPage(props: { theme: Theme; onThemeChange: (theme: Theme) => voi
         </div>
         <div className="flex flex-row gap-3">
           <a
-            href="https://github.com/M-kasinski/chat-gpt-coozila-extension/issues"
+            href="https://github.com/coozila/chat-gpt-coozila-extension/issues"
             target="_blank"
             rel="noreferrer"
           >
             Feedback
           </a>
           <a
-            href="https://github.com/M-kasinski/chat-gpt-coozila-extension"
+            href="https://github.com/coozila/chat-gpt-coozila-extension"
             target="_blank"
             rel="noreferrer"
           >
