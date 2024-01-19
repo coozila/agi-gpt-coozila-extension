@@ -29,12 +29,17 @@ export enum Language {
   Auto = 'auto',
   English = 'english',
   Chinese = 'chinese',
-  Spanish = 'spanish',
   French = 'french',
+  German = 'german',
+  Hungarian = 'hungarian',
+  Italian = 'italian',
   Korean = 'korean',
   Japanese = 'japanese',
-  German = 'german',
   Portuguese = 'portuguese',
+  Romanian = 'romanian',
+  Rusian = 'rusian',
+  Spanish = 'spanish',
+  Ukrainian = 'ukrainian',
 }
 
 const userConfigWithDefaultValue = {

@@ -56,6 +56,10 @@ async function zipFolder(dir) {
   archive.pipe(output)
   archive.directory(dir, false)
   await archive.finalize()
+  console.log('Zip process completed successfully.')
+} catch (error) {
+  console.error('Error during zip process:', error)
+  throw error
 }
 
 async function copyFiles(entryPoints, targetDir) {
