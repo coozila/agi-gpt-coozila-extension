@@ -11,7 +11,7 @@ export const config: Record<string, SearchEngine> = {
     sidebarContainerQuery: ['.is-sidebar'],
     appendContainerQuery: [],
     watchRouteChange(callback) {
-      const targetNode = document.querySelector('#root')!
+      const targetNode = document.querySelector('#main_results')!
       const observer = new MutationObserver((mutationsList) => {
         for (const mutation of mutationsList) {
           if (mutation.type === 'childList') {

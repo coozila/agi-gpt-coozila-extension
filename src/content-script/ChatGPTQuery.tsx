@@ -74,7 +74,7 @@ function ChatGPTQuery(props: Props) {
     return (
       <div className="markdown-body gpt-markdown" id="gpt-answer" dir="auto">
         <div className="gpt-header">
-          <span className="font-bold">ChatGPT</span>
+          <span className="font-bold">Alpha</span>
           <span className="cursor-pointer leading-[0]" onClick={openOptionsPage}>
             <GearIcon size={14} />
           </span>
@@ -91,7 +91,7 @@ function ChatGPTQuery(props: Props) {
           <p className="italic mt-2">
             Enjoy this extension? Give us a 5-star rating at{' '}
             <a
-              href="https://chatgpt4google.com/chrome?utm_source=rating_tip"
+              href="https://www.coozila.com/chrome?utm_source=rating_tip"
               target="_blank"
               rel="noreferrer"
             >
@@ -116,7 +116,7 @@ function ChatGPTQuery(props: Props) {
               return (
                 <span className="block mt-2">
                   Still not working? Follow{' '}
-                  <a href="https://github.com/wong2/chat-gpt-google-extension#troubleshooting">
+                  <a href="https://github.com/coozila/chat-gpt-coozils-extension#troubleshooting">
                     Brave Troubleshooting
                   </a>
                 </span>

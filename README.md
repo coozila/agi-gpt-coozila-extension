@@ -13,7 +13,7 @@ A browser extension to display  response alongside Coozila! (and other search en
 
 ## Features
 
-- Supports all popular search engines
+- Supports all Coozila! Search Engines
 - Supports the official OpenAI API
 - Supports ChatGPT Plus
 - Markdown rendering
@@ -41,4 +41,6 @@ Disable "Prevent sites from fingerprinting me based on my language preferences" 
 
 ## Credit
 
-This project is inspired by [M-kasinski/chat-gpt-qwant-extension](https://github.com/M-kasinski/chat-gpt-qwant-extension)
+This project is inspired by:
+- [M-kasinski/chat-gpt-qwant-extension](https://github.com/M-kasinski/chat-gpt-qwant-extension)
+- [wong2/chat-gpt-google-extension](https://github.com/wong2/chat-gpt-google-extension)
