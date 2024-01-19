@@ -27,14 +27,14 @@ export enum Theme {
 
 export enum Language {
   Auto = 'auto',
-  English = 'english',
   Chinese = 'chinese',
+  English = 'english',
   French = 'french',
   German = 'german',
   Hungarian = 'hungarian',
   Italian = 'italian',
-  Korean = 'korean',
   Japanese = 'japanese',
+  Korean = 'korean',
   Portuguese = 'portuguese',
   Romanian = 'romanian',
   Rusian = 'rusian',
