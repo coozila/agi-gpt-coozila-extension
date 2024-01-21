@@ -49,18 +49,21 @@ async function runEsbuild() {
 }
 
 async function zipFolder(dir) {
-  const output = fs.createWriteStream(`${dir}.zip`)
-  const archive = archiver('zip', {
-    zlib: { level: 9 },
-  })
-  archive.pipe(output)
-  archive.directory(dir, false)
-  await archive.finalize()
-  console.log('Zip process completed successfully.')
-} catch (error) {
-  console.error('Error during zip process:', error)
-  throw error
+  try {
+    const output = fs.createWriteStream(`${dir}.zip`);
+    const archive = archiver('zip', {
+      zlib: { level: 9 },
+    });
+    archive.pipe(output);
+    archive.directory(dir, false);
+    await archive.finalize();
+    console.log('Zip process completed successfully.');
+  } catch (error) {
+    console.error('Error during zip process:', error);
+    throw error;
+  }
 }
+
 
 async function copyFiles(entryPoints, targetDir) {
   await fs.ensureDir(targetDir)
