@@ -1,11 +1,11 @@
-# <img src="./src/logo.png" alt="logo" width="30"/> AGI-GPT for Coozila
+# <img src="./src/logo.png" alt="logo" width="30"/> AGI for Coozila
 
 
 A browser extension to display  response alongside Coozila! (and other search engines) results
 
-[Install from Chrome Web Store](https://chrome.google.com/webstore/detail/chatgpt-for-coozila/fmackbdncigkggigfkmiikcpobkeijaf)
+[Install from Chrome Web Store](https://chrome.google.com/webstore/detail/agi-for-coozila/fmackbdncigkggigfkmiikcpobkeijaf)
 
-[Install from Mozilla Add-on Store](https://addons.mozilla.org/firefox/addon/chatgpt-for-coozila/)
+[Install from Mozilla Add-on Store](https://addons.mozilla.org/firefox/addon/agi-for-coozila/)
 
 ## Screenshot
 

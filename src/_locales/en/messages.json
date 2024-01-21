@@ -1,9 +1,9 @@
 {
   "appName": {
-    "message": "ChatGPT for Coozila!"
+    "message": "Alpha AI for Coozila!"
   },
   "appDesc": {
-    "message": "Display ChatGPT response alongside search engine results"
+    "message": "Display Alpha AI response alongside search engine results"
   },
   "changeSearchEngineTitle": {
     "message": "Change default search engine?",
