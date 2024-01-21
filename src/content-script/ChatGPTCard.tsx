@@ -22,7 +22,7 @@ function ChatGPTCard(props: Props) {
     }
     return (
       <p className="icon-and-text">
-        <LightBulbIcon size="small" /> Trigger Alpha AI by appending a question mark after your query
+        <LightBulbIcon size="small" /> Trigger Alpha AGI by appending a question mark after your query
       </p>
     )
   }

@@ -8,7 +8,7 @@ export enum TriggerMode {
 }
 
 export const TRIGGER_MODE_TEXT = {
-  [TriggerMode.Always]: { title: 'Always', desc: 'Alpha AI is queried on every search' },
+  [TriggerMode.Always]: { title: 'Always', desc: 'Alpha AGI is queried on every search' },
   [TriggerMode.QuestionMark]: {
     title: 'Question Mark',
     desc: 'When your query ends with a question mark (?)',

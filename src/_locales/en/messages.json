@@ -1,9 +1,9 @@
 {
   "appName": {
-    "message": "Alpha AI for Coozila!"
+    "message": "Alpha AGI for Coozila!"
   },
   "appDesc": {
-    "message": "Display Alpha AI response alongside search engine results"
+    "message": "Display Alpha AGI response alongside search engine results"
   },
   "changeSearchEngineTitle": {
     "message": "Change default search engine?",
