@@ -43,13 +43,13 @@ const ConfigPanel: FC<ConfigProps> = ({ config, models }) => {
   return (
     <div className="flex flex-col gap-3">
       <Tabs value={tab} onChange={(v) => setTab(v as ProviderType)}>
-        <Tabs.Item label="ChatGPT webapp" value={ProviderType.ChatGPT}>
-          The API that powers ChatGPT webapp, free, but sometimes unstable
+        <Tabs.Item label="Alpha AI Web App" value={ProviderType.ChatGPT}>
+          The API that powers Alpha AI Web App, free, but sometimes unstable
         </Tabs.Item>
         <Tabs.Item label="OpenAI API" value={ProviderType.GPT3}>
           <div className="flex flex-col gap-2">
             <span>
-              OpenAI official API, more stable,{' '}
+            Alpha AI official API, more stable,{' '}
               <span className="font-semibold">charge by usage</span>
             </span>
             <div className="flex flex-row gap-2">
