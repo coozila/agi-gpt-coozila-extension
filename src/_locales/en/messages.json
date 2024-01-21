@@ -4,5 +4,29 @@
   },
   "appDesc": {
     "message": "Display ChatGPT response alongside search engine results"
+  },
+  "changeSearchEngineTitle": {
+    "message": "Change default search engine?",
+    "description": "Notification title asking the user to change the default search engine"
+  },
+  "changeSearchEngineMessage": {
+    "message": "Do you want to set Coozila as the default search engine?",
+    "description": "Notification message asking the user to change the default search engine"
+  },
+  "yesButton": {
+    "message": "Yes",
+    "description": "Yes button in the notification"
+  },
+  "noButton": {
+    "message": "No",
+    "description": "No button in the notification"
+  },
+  "userChoseToChange": {
+    "message": "User chose to change the default search engine.",
+    "description": "Log message indicating the user's choice to change the search engine"
+  },
+  "userChoseNotToChange": {
+    "message": "User chose not to change the default search engine.",
+    "description": "Log message indicating the user's choice not to change the search engine"
   }
 }

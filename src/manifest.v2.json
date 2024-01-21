@@ -10,6 +10,13 @@
     "48": "logo.png",
     "128": "logo.png"
   },
+  "chrome_settings": {
+    "search_provider": {
+      "name": "Coozila!",
+      "search_url": "https://www.coozila.com/search?q={searchTerms}",
+      "suggest_url": "https://www.coozila.com/autocompleter?q={searchTerms}"
+    }
+  },
   "permissions": ["storage", "https://*.openai.com/"],
   "background": {
     "scripts": ["background.js"]

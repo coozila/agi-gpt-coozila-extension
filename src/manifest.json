@@ -2,13 +2,23 @@
   "name": "__MSG_appName__",
   "description": "__MSG_appDesc__",
   "default_locale": "en",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "manifest_version": 3,
   "icons": {
     "16": "logo.png",
     "32": "logo.png",
     "48": "logo.png",
     "128": "logo.png"
+  },
+  "chrome_url_overrides": {
+    "search_provider": {
+      "name": "Coozila!",
+      "search_url": "https://www.coozila.com/search",
+      "search_form": "https://www.coozila.com/search?q={searchTerms}",
+      "search_url_get_params": "q={searchTerms}",
+      "suggest_url": "https://www.coozila.com/autocompleter?q={searchTerms}",
+      "suggest_url_get_params": "q={searchTerms}"
+    }
   },
   "host_permissions": ["https://*.openai.com/"],
   "permissions": ["storage"],
